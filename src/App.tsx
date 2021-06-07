@@ -1,8 +1,15 @@
+import { ToastContainer } from 'react-toastify';
+
+import Home from "./components/Home";
+import Sobre from "./components/Sobre";
+
 function App() {
   return (
-    <div>
-      <h2>Hello Afya</h2>
-    </div>
+    <>
+      <Home />
+      <Sobre />
+      <ToastContainer />
+    </>
   );
 }
 
